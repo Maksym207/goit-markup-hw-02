@@ -2,7 +2,7 @@
   --main-title-color: #ffffff;
 }
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -37,21 +37,25 @@ body {
 .header-item {
 }
 .header-link {
-  font-weight: 400;
+  font-style: normal
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.header-link:hover {
+.header-link, .header-address-link:hover {
   color: #404bbf;
 }
-.header-link:focus {
+.header-link, .header-address-link:focus {
   color: #404bbf;
 }
 
 .header-address {
 }
 .header-address-list {
+  letter-spacing: 0.02em;
+color:  #434455;
 }
 .header-address-link {
   font-weight: 400;
