@@ -1,3 +1,6 @@
+:root {
+  --main-title-color: #ffffff;
+}
 body {
   font-family: "roboto", sans-serif;
 }
@@ -52,7 +55,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--main-title-color), #ffffff;
 }
 .first-title {
   font-weight: 700;
@@ -61,6 +64,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.first {
+  background-color: #2e2f42;
 }
 /*-----------------------QUAISTY----------------------*/
 .quaisty {
