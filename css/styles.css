@@ -18,7 +18,8 @@ body {
 .header-nav {
 }
 
-.header-logo {
+.header-logo,
+.header-portfolio-link-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -33,11 +34,14 @@ body {
 .header-logo-color {
   color: #2e2f42;
 }
+.header-portfolio-part-logo {
+  color: #2e2f42;
+}
 .header-list {
 }
 .header-item {
 }
-. .header-address-link:hover,
+.header-address-link:hover,
 .header-address-link:focus {
   color: #404bbf;
 }
@@ -45,6 +49,16 @@ body {
 .header-link:hover {
   color: #404bbf;
 }
+
+.header-portfolio-link:hover,
+.header-portfolio-link:focus {
+  color: #404bbf;
+}
+.header-portfolio-address:hover,
+.header-portfolio-address:focus {
+  color: #404bbf;
+}
+.header-portfolio-link,
 .header-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
