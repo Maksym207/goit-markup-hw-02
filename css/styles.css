@@ -92,7 +92,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
-  etter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 /*-----------------------FIRST SECTION----------------------*/
 .first-btn {
@@ -225,6 +225,7 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
-.footer {
+.footer,
+.footer-portfolio {
   background-color: #2e2f42;
 }
