@@ -54,12 +54,12 @@ body {
   color: var(--d-blu);
 }
 
-.header-portfolio-link:hover,
-.header-portfolio-link:focus {
+.header-portfolio-link-2:hover,
+.header-portfolio-link-2:focus {
   color: var(--d-blu);
 }
-.header-portfolio-address:hover,
-.header-portfolio-address:focus {
+.header-portfolio-link:hover,
+.header-portfolio-link:focus {
   color: var(--d-blu);
 }
 .modal-btn {
@@ -68,7 +68,8 @@ body {
 
 .header-link,
 .modal-btn,
-.header-item {
+.header-item,
+.header-address-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
