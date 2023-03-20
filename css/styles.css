@@ -111,8 +111,7 @@ body {
   color: var(--main-title-color);
   background: var(--d-blu);
 }
-.header-address {
-  font-style: normal;
+
 }
 .header-address-link {
   line-height: 1.5;
