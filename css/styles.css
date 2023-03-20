@@ -78,8 +78,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-
-.header-portfolio-address {
+.header-portfolio-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -88,7 +87,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-gray);
 }
-.header-portfolio-link {
+.header-portfolio-address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
