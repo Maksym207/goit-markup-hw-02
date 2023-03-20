@@ -74,6 +74,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.header-portfolio-link {
+  color: #434455;
+}
 
 .modal-btn {
   letter-spacing: 0.04em;
