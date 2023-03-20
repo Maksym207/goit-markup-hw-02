@@ -91,7 +91,7 @@ body {
 .header-address {
   font-style: normal;
 }
-.header-address-lin.link {
+.header-address-lin {
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0.02em;
