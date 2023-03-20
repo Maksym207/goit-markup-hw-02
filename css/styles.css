@@ -92,7 +92,8 @@ body {
 }
 .header-address-link,
 .pay-text,
-.servis-text {
+.servis-text,
+.food-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -147,7 +148,8 @@ body {
 }
 .quaisty-uptext,
 .pay-uptext,
-.servis-uptext {
+.servis-uptext,
+.food-uptext {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
