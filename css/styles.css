@@ -60,7 +60,8 @@ body {
 }
 .header-portfolio-link,
 .header-link,
-.modal-btn {
+.modal-btn,
+.header-item {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -238,4 +239,8 @@ body {
 .footer,
 .footer-portfolio {
   background-color: #2e2f42;
+}
+.photo-color,
+.photo-team {
+  background-color: #ffffff;
 }
