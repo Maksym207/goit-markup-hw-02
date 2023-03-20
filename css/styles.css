@@ -70,6 +70,10 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.modal-btn {
+  letter-spacing: 0.04em;
+}
+
 .header-portfolio-link {
   color: #434455;
 }
