@@ -64,9 +64,8 @@ body {
 .header-portfolio-link,
 .header-link,
 .modal-btn,
-.header-item ,
-.header-address-link
-{
+.header-item,
+.header-address-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -92,10 +91,10 @@ body {
 .header-address {
   font-style: normal;
 }
-/*.header-address-link {
+.header-address-lin {
   font-style: normal;
   letter-spacing: 0.02em;
-  color: #434455;*/
+  color: #434455;
 }
 
 .pay-text,
