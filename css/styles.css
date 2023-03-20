@@ -58,6 +58,10 @@ body {
 .header-portfolio-address:focus {
   color: #404bbf;
 }
+.modal-btn {
+  cursor: pointer;
+}
+
 .header-portfolio-link,
 .header-link,
 .modal-btn,
@@ -68,6 +72,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-link.link {
   color: #2e2f42;
 }
 .modal-btn {
