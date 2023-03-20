@@ -78,7 +78,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-.header-portfolio-link,
+
 .header-portfolio-address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -87,6 +87,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-gray);
+}
+.header-portfolio-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 .modal-btn {
