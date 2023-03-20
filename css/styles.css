@@ -54,8 +54,8 @@ body {
   color: var(--d-blu);
 }
 
-.header-portfolio-link-2:hover,
-.header-portfolio-link-2:focus {
+.header-portfolio-link-first:hover,
+.header-portfolio-link-first:focus {
   color: var(--d-blu);
 }
 .header-portfolio-link:hover,
@@ -88,7 +88,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-gray);
 }
-.header-portfolio-link-2 {
+.header-portfolio-link-first {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
