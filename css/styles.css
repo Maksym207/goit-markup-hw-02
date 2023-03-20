@@ -69,6 +69,10 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.header-portfolio-link {
+  color: #434455;
+}
+
 .modal-btn {
   color: #4d5ae5;
   background: #f4f4fd;
@@ -86,7 +90,8 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-address-link {
+.header-address-link,
+.pay-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -139,7 +144,8 @@ body {
 }
 .list {
 }
-.quaisty-uptext {
+.quaisty-uptext,
+.pay-uptext {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
