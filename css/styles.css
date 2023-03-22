@@ -7,6 +7,32 @@
   --l-gray: #f4f4fd;
   --ll-gray: #e7e9fc;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -18,8 +44,45 @@ body {
 .link {
   text-decoration: none;
 }
-/*-----------------------HEDER----------------------*/
 
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*-----------------------HEDER----------------------*/
+.page-header-conteiner {
+  display: flex;
+  align-items: center;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-nav,
+.header-portfolio-nav {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.header-item:not(:last-child),
+.header-item-address:not(:last-child) {
+  margin-right: 40px;
+}
+.header-address-link,
+.header-portfolio-link,
+.address {
+  margin-left: auto;
+}
+
+.logo {
+  margin-right: 76px;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -110,8 +173,6 @@ body {
 .modal-btn:focus {
   color: var(--main-title-color);
   background: var(--d-blu);
-}
-
 }
 .header-address-link {
   line-height: 1.5;
