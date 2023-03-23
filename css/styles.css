@@ -60,6 +60,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav,
 .header-portfolio-nav {
@@ -160,20 +161,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-
-.modal-btn {
-  letter-spacing: 0.04em;
-}
-
-.modal-btn {
-  color: var(--blu);
-  background: #f4f4fd;
-}
-.modal-btn:hover,
-.modal-btn:focus {
-  color: var(--main-title-color);
-  background: var(--d-blu);
-}
 .header-address-link {
   line-height: 1.5;
   font-style: normal;
@@ -193,11 +180,19 @@ body {
 }
 /*-----------------------FIRST SECTION----------------------*/
 .first-btn {
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-top: 48px;
+  margin: auto;
 
   display: flex;
   align-items: center;
@@ -216,6 +211,41 @@ body {
   background-color: var(--d-blu);
   cursor: pointer;
 }
+.btn-div {
+}
+.btn-item {
+}
+.btn-list {
+  display: flex;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  justify-content: center;
+}
+.modal-btn {
+  color: var(--blu);
+  background: #f4f4fd;
+  letter-spacing: 0.04em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-right: 24px;
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--main-title-color);
+  background: var(--d-blu);
+}
 .first-title {
   font-weight: 700;
   font-size: 56px;
@@ -223,14 +253,28 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  margin: auto;
+  width: 496px;
+  min-height: 120px;
+  padding-top: 188px;
+  padding-bottom: 48px;
 }
 .first {
+  height: 600px;
   background-color: #2e2f42;
 }
 /*-----------------------QUAISTY----------------------*/
 .quaisty {
 }
 .quaisty-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.quaisty-item:not(:last-child) {
+  margin-right: 24px;
+  min-width: 264px;
 }
 .list {
 }
@@ -264,32 +308,71 @@ body {
   text-transform: capitalize;
   color: var(--main-color);
   text-align: center;
+  margin-bottom: 120px;
 }
-.page-list {
+.servis-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+.pay-uptext {
+  padding-bottom: 8px;
+}
+.pay-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+
+  background: #ffffff;
+  margin-bottom: 48px;
+  border: 1px solid #e7e9fc;
+}
+.pay-div:nth-child(3n) {
+  margin-right: 24px;
+}
+.page-list,
+.pay-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .list {
 }
 .page-phone {
 }
+.page-photo {
+}
 .photo {
   background-color: var(--l-gray);
 }
-.photo-team {
+.photo-team.color {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-color);
+  background-color: var(--l-gray);
   text-align: center;
+  margin-bottom: 72px;
+  padding-top: 133px;
 }
 .photo-list {
   background-color: var(--main-title-color);
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  background-color: var(--l-gray);
 }
 .list {
 }
 .photo-human {
 }
+
 .photo-text {
   font-weight: 400;
   font-size: 16px;
@@ -334,9 +417,19 @@ body {
 
 .footer-portfolio {
   background-color: var(--main-color);
+  margin-top: 72px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  margin-right: auto;
+  padding-bottom: 100px;
+  max-width: 264px;
 }
 .footer {
   background-color: var(--main-color);
+  height: 312px;
 }
 
 .photo-team {
@@ -344,4 +437,20 @@ body {
 }
 .photo-color {
   background-color: var(--main-title-color);
+  flex-basis: calc((100% - 72px) / 4);
+  margin-bottom: 126px;
+}
+.photo-human-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px 16px 32px 16px;
 }
