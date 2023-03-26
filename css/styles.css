@@ -259,6 +259,7 @@ body {
 }
 /*-----------------------QUAISTY----------------------*/
 .quaisty {
+  padding-top: 120px;
 }
 .quaisty-list {
   display: flex;
@@ -278,6 +279,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
   background-color: var(--main-title-color);
+}
+.quaisty-uptext {
+  margin-bottom: 8px;
 }
 .quaisty-text {
   font-weight: 400;
